@@ -1,0 +1,6 @@
+What happens when a git repo is initialized?
+	when git init is used in a folder a hidden .git folder is created with meta data about the commits of the repo
+
+How is the staging area diff:
+	the staging area alows for multiple files to be added to a commit but not all files
+	it essentialy parcels everything that needs to go in a commit before the change is made
