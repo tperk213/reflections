@@ -1,0 +1,37 @@
+comands learnt
+$fc file1 file2
+$git log --stat
+$q 					
+					#to stop viewing output of log
+$git diff id1 id2
+					#shows the differences between two files to easily pick out spelling mistakes ect
+$git clone address
+					#clones the repo at address
+$git config --global color.ui auto
+					#highlights diff changes easily
+copy - ctrl ins
+paste - shift ins
+
+Using history efficiency:
+	being able to roll back to an early version to undo mistakes without making more
+
+Manual Commits:
+	allows for meaningful changes to be saved and has little downside like bloated versions
+	of automatic commits if a commit is done for every logical change
+
+Multi File Commits:
+	git allows for a repository commit as a change can effect multiple files at once
+	this isnt necisary in something like text editing on google docs as the files arnt
+	compiled together
+
+Using the git commands to view changes:
+	using the git log will show commit history
+	using git diff id_first id_second will show changes
+
+Why woulf version control make you confident to make potentialy breaking changes:
+	version control allows you to rollback to a previous change easily and compare differences to find bugs
+
+What do i want to use git for:
+	i want to use it to post versions of my programs online as a profile and use it to ease development
+
+3884eab839af1e82c44267484cf2945a766081f3
