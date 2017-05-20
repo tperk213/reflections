@@ -4,3 +4,6 @@ What happens when a git repo is initialized?
 How is the staging area diff:
 	the staging area alows for multiple files to be added to a commit but not all files
 	it essentialy parcels everything that needs to go in a commit before the change is made
+
+Using the staging area:
+	use the staging area to make sure there is only one logical change by checking the diff --staged
