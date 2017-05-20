@@ -9,6 +9,22 @@ $git clone address
 					#clones the repo at address
 $git config --global color.ui auto
 					#highlights diff changes easily
+$git checkout commit_id
+					#change to the commit id
+$git init
+					#sets up a repository as a git repo
+$git status
+					#shows status of the repos stage and repo				
+$git add file
+					#adds a file to the stage
+$git commit
+					#commits the changes on the stage to repo
+$git diff
+					#show differences between working dir and stage
+$git diff --stage
+					#shows changes from stage to head
+$git reset --hard
+					#gets rid of changes in stage and work dir (careful cant be undone)
 copy - ctrl ins
 paste - shift ins
 
